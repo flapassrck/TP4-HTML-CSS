@@ -1,4 +1,68 @@
 body {
+  font-family:
+    Open Sans,
+    Arial;
+  color: #454545;
+  font-size: 16px;
   margin: 2em auto;
-  max-width: 45em;
+  max-width: 800px;
+  padding: 1em;
+  line-height: 1.4;
+}
+
+span.mother {
+  color: #730000;
+}
+
+span.wrong {
+  color: #c0392b;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+a {
+  color: #07a;
+}
+
+a:visited {
+  color: #941352;
+}
+
+small {
+  font-size: 0.4em;
+}
+
+span.blue {
+  color: blue;
+}
+
+span.violet {
+  color: #551a8b;
+}
+
+img.svg {
+  height: 1rem;
+}
+
+p.texte {
+  font-family: monospace;
+  font-size: 0.9em;
+}
+
+span.first {
+  color: #444;
+  font-weight: 700;
+}
+
+span.second {
+  color: #454545;
+  font-weight: 700;
+}
+
+span.marron {
+  color: #85144b;
+}
+
+span.visited {
+  color: #931352;
 }

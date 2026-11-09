@@ -8,6 +8,7 @@ body {
   max-width: 800px;
   padding: 1em;
   line-height: 1.4;
+  font-weight: 300;
 }
 
 h1 {
@@ -129,4 +130,8 @@ label[for="invmode"] {
   position: fixed;
   top: 34px;
   text-decoration: underline;
+}
+
+p.real {
+  margin-top: -1em;
 }

@@ -104,3 +104,29 @@ blockquote {
   margin-top: 2em;
   margin-bottom: 2em;
 }
+
+label[for="contrast"] {
+  color: #000;
+  background: #f0f0f0;
+  top: 10px;
+}
+
+label.cont-inv {
+  cursor: pointer;
+  border-radius: 2px;
+  position: fixed;
+  right: 10px;
+  font-size: 0.8em;
+  text-decoration: underline;
+  border: 0;
+  padding: 2px 5px;
+  display: inline-block;
+}
+
+label[for="invmode"] {
+  color: #fff;
+  background-color: #000;
+  position: fixed;
+  top: 34px;
+  text-decoration: underline;
+}
